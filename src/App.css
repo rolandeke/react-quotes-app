@@ -1,0 +1,53 @@
+#root, body, html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+
+
+}
+
+.app{
+  height: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.wrapper{
+  background-color: whitesmoke;
+  width: 400px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 5px;
+  opacity: 0.6;
+}
+.btnAdvice{
+  
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 40px;
+  width: 210px;
+  background: #fff;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width:600px ){
+  .wrapper{
+     width: 500px;
+  height: 250px;
+  padding: 10px;
+  }
+}
