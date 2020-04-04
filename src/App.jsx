@@ -29,7 +29,7 @@ render(){
               {advice}
             </h1>
             <button className="btnAdvice" onClick={this.getAdvice}>
-              Get more advice 
+              Get more Quotes 
             </button>
   <small><i class="fa fa-copyright" aria-hidden="true"></i> Scorpion Garage <i class="fa fa-code" aria-hidden="true"></i>  &nbsp;{date}</small>
         </div>
